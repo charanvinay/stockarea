@@ -1,0 +1,64 @@
+.container {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-bottom: 20px;
+
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  border: 1px solid rgb(223, 221, 221);
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.card_container {
+  padding: 2px 16px;
+}
+
+.warehouse_name {
+  margin: 0px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #141414;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subtitle {
+  color: rgb(74, 74, 74);
+}
+
+.filter_methods_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+select {
+  margin: 0px;
+}
+input[type="submit"] {
+  background-color: #005eff;
+  color: white;
+  height: 40px;
+  border: none;
+  margin: 0px;
+  border-radius: 4px;
+  cursor: pointer;
+}
